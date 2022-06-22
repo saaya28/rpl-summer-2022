@@ -31,20 +31,20 @@ Please do not add large files to git repositories if possible.
 - Push your changes to your own forked repository (git push origin <branch>)
 - Then within your fork on github create a “Pull Request” 
 
-<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/branch1.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/blob/main/resources/branch1.jpg" width="600"></br>
 
-<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr1.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/blob/main/resources/pr1.jpg" width="600"></br>
 
 
 - You will see that the proposed merge is from ravescovi/rpl-summer-2022:main -> AD-SDL/rpl-summer-2022:main.  Click “Create pull request”
 
-<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr2.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/blob/main/resources/pr2.jpg" width="600"></br>
 
-<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr3.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/blob/main/resources/pr3.jpg" width="600"></br>
 
 - After the change is approved, click the “Merge pull request”.  This will merge your change into the `AD-SDL/rpl-summer-2022:main along with everyone else’s work in a safe way.
 
-<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr_merged1.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/blob/main/resources/pr_merged1.jpg" width="600"></br>
 
 
 - Repeat the above process for each change you want to make.
@@ -52,7 +52,7 @@ Please do not add large files to git repositories if possible.
 
 > *note:* your own fork will get “out-of-date” with the main AD-SDL/rpl-summer-2022 repository so in your forked repository in GitHub you can click the “Fetch upstream” to have the upstream repository merged into your fork. (see attached image)
 >
-> <img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/fetch.png" width="600"></br>
+> <img src="https://github.com/AD-SDL/rpl-summer-2022/blob/main/resources/fetch.jpg" width="600"></br>
 
 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request
