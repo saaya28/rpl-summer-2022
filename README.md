@@ -24,35 +24,35 @@ Please do not add large files to git repositories if possible.
 * Please do not clone a git repository in a directory that is synced with icloud or any other sync mechanism, as files might be deleted.
 
 ### Process for Github:
-- Fork the https://github.com/AD-SDL/rpl-students-2022 repository.  
-  - This will create a “copy” of the repository in your own profile.  (ex. https://github.com/ravescovi/rpl-students-2022)
-- Clone forked repository to your machine (ex. git clone git@github.com:ravescovi/rpl-students-2022.git)
+- Fork the https://github.com/AD-SDL/rpl-summer-2022 repository.  
+  - This will create a “copy” of the repository in your own profile.  (ex. https://github.com/ravescovi/rpl-summer-2022)
+- Clone forked repository to your machine (ex. git clone git@github.com:ravescovi/rpl-summer-2022.git)
 - Make code changes on the main (or another branch) in your own forked environment (i.e git commit)
 - Push your changes to your own forked repository (git push origin <branch>)
 - Then within your fork on github create a “Pull Request” 
 
-<img src="https://github.com/AD-SDL/rpl-students-2022/raw/main/resources/branch1.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/branch1.png" width="600"></br>
 
-<img src="https://github.com/AD-SDL/rpl-students-2022/raw/main/resources/pr1.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr1.png" width="600"></br>
 
 
-- You will see that the proposed merge is from ravescovi/rpl-students-2022:main -> AD-SDL/rpl-students-2022:main.  Click “Create pull request”
+- You will see that the proposed merge is from ravescovi/rpl-summer-2022:main -> AD-SDL/rpl-summer-2022:main.  Click “Create pull request”
 
-<img src="https://github.com/AD-SDL/rpl-students-2022/raw/main/resources/pr2.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr2.png" width="600"></br>
 
-<img src="https://github.com/AD-SDL/rpl-students-2022/raw/main/resources/pr3.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr3.png" width="600"></br>
 
-- After the change is approved, click the “Merge pull request”.  This will merge your change into the `AD-SDL/rpl-students-2022:main along with everyone else’s work in a safe way.
+- After the change is approved, click the “Merge pull request”.  This will merge your change into the `AD-SDL/rpl-summer-2022:main along with everyone else’s work in a safe way.
 
-<img src="https://github.com/AD-SDL/rpl-students-2022/raw/main/resources/pr_merged1.png" width="600"></br>
+<img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/pr_merged1.png" width="600"></br>
 
 
 - Repeat the above process for each change you want to make.
 
 
-> *note:* your own fork will get “out-of-date” with the main AD-SDL/rpl-students-2022 repository so in your forked repository in GitHub you can click the “Fetch upstream” to have the upstream repository merged into your fork. (see attached image)
+> *note:* your own fork will get “out-of-date” with the main AD-SDL/rpl-summer-2022 repository so in your forked repository in GitHub you can click the “Fetch upstream” to have the upstream repository merged into your fork. (see attached image)
 >
-> <img src="https://github.com/AD-SDL/rpl-students-2022/raw/main/resources/fetch.png" width="600"></br>
+> <img src="https://github.com/AD-SDL/rpl-summer-2022/raw/main/resources/fetch.png" width="600"></br>
 
 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request
