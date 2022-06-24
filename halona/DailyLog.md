@@ -1,2 +1,3 @@
 ## 6/24
-* Today, I made a folder on the repo
+* I made a folder on the repo
+* I went through a tutorial on Pytorch
