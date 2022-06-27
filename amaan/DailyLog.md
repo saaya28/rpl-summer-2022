@@ -13,7 +13,7 @@
 * Met with Mariam to decide on a Journal Club article since we are presenting this week.
 * Began reading journal club article
 * Met with Rory and showed my progress so far, and helped clear any confusion I had. Told me to upload my code under `rpl-camera-vision/rpl_cv/dashbaord`
-* **TOOD:**    
+* **TODO:**    
   - Finish reading journal club article in depth and split up work for presentation with Mariam tomorrow
   - Create directory 'dashboard' under `AD-SDL/rpl-camera-vision/rpl_cv/` and put your dashboard code there
   - Finish writing subscriber.py
