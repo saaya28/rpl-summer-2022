@@ -14,3 +14,4 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 * Update Github daily log
 ### Tasks Accomplished
 * Read YOLO paper
+* Completed coding for transfer from cells and dilution assay to final assay plate
