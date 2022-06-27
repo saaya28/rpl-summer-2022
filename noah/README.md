@@ -5,4 +5,8 @@
 * I ran through some python for robotics and ROS training
 
 ## 06/27
-* I completed some training to learn how to use ROS for coding robotics
+* I learned how to create a ROS package
+* I learned how to create a ROS launch file
+* I learned what topics are and how to create publishers and subscribers in ROS
+* I created documentation outlining how to launch ROS nodes at start-up in several different ways
+* I started creating additional launch files for the new Opentrons 2 machines
