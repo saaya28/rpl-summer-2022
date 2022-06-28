@@ -15,7 +15,7 @@
 * Met with Rory and showed my progress so far, and helped clear any confusion I had. Told me to upload my code under `rpl-camera-vision/rpl_cv/dashbaord`
 * **TODO:**    
   - [x] Finish reading journal club article in depth and split up work for presentation with Mariam tomorrow
-  - [ ] Create directory 'dashboard' under `AD-SDL/rpl-camera-vision/rpl_cv/` and put your dashboard code there
+  - [x] Create directory 'dashboard' under `AD-SDL/rpl-camera-vision/rpl_cv/` and put your dashboard code there
   - [ ] Finish writing subscriber.py
   - [ ] Create a ROS workspace and package by following this [tutorial](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html#new-directory)
 
@@ -23,4 +23,4 @@
 * Read journal club article in depth and took notes
 * Met with Mariam to split up the work for the journal club presentation
 * Rory was able to get `opencv` and `rclpy` python packages working on the NUC so I was able to test out my code and debug issues
-* Worked on writing subscriber.py
+* Worked on writing subscriber.py and moved code to rpl-camera-vision repo (have not made a pull request yet - only pushed to my fork for now)
