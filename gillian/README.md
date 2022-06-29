@@ -21,7 +21,7 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 * I read more of *Machine Learning: A Concise Introduction*
 
 ### 6/28
-*I met with Halona and Arleen to continue our work from 6/27 and assemble the code we wrote in the right chronological order
+* I met with Halona and Arleen to continue our work from 6/27 and assemble the code we wrote in the right chronological order
 * I met with Casey to rework our approach for the coding of preparing the dilution plate
 * I read more of *Machine Learning: A Concise Introduction*
 * I started the new code for the preparation of the dilution plate and made calculations for the volumes we would use of each treatment and M9 media 
