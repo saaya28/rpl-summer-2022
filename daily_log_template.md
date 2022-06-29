@@ -1,9 +1,7 @@
 # Student Name
 
 **Project name:** Mobile Robotics for Science
-
 **Advisor:** ANL Person
-
 **Email:** student@anl.gov
 
 ## Project description
