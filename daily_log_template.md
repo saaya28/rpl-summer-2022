@@ -1,12 +1,12 @@
-# Rafael Vescovi
+# Student Name
 
-**Project name:** Modular Robotics for Science
-**Advisor:** Ian Foster
-**Email:** ravescovi@anl.gov
+**Project name:** Mobile Robotics for Science
+**Advisor:** ANL Person
+**Email:** student@anl.gov
 
 ## Project description
 
-AutoBots Roll!
+The story of a potato!
 
 ## Diary
 
