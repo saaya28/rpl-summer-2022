@@ -22,3 +22,7 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### Tasks Accomplished
 * Coded steps for preparing final assay plate
 * Had a meeting with Casey to discuss progress
+## 6/29
+### To Do:
+* Finish up with code for PyHamilton
+* Play around with the NUC and neural networks
