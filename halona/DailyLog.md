@@ -15,3 +15,14 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### Tasks Accomplished
 * Read YOLO paper
 * Completed coding for transfer from cells and dilution assay to final assay plate
+
+## 6/28
+### To Do:
+* Work with Gillian and Arleen on the PyHamilton code
+### Tasks Accomplished
+* Coded steps for preparing final assay plate
+* Had a meeting with Casey to discuss progress
+## 6/29
+### To Do:
+* Finish up with code for PyHamilton
+* Play around with the NUC and neural networks
