@@ -9,7 +9,15 @@ For this project, we will reproduce one of the biological experiments presented 
 ## Diary
 ### 6/27/22
 * Started to write the python code for the PyHamilton protocol. 
+* Finished reading the paper Pryianka sent us, took notes and wrote down the steps.
 
 ### 6/28/22
 * Finished the Python code for the PyHamilton protocol (assay plate and dilution plate steps) 
 * Had a meeting with Casey to discuss the code and had to make some changes to make the code less time consuming. 
+* Sarted to look for more papers about automated DNA assembly. 
+
+### 6/29/2022
+* Worked on the python code for the Pyhamilton protocol. We worked with making the dilution plate and had to figured out the concentrations for each nutrient. 
+* Started to read a good paper I found about DNA Assembly and took notes. 
+
+#### 6/30/2022
