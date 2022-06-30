@@ -1,4 +1,4 @@
-#  ** Argonne Daily Journal **
+#  **Argonne Daily Journal**
 
 
 ## **Week of 6/27 - 6/31**
