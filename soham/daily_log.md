@@ -1,8 +1,8 @@
 #  Soham Shukla
 
-**Project name** Self-Driving Labs
-**Advisor** Arvind Ramanathan 
-**Email** sohammshukla@gmail.com
+**Project name:** Self-Driving Labs
+**Advisor:** Arvind Ramanathan 
+**Email:** sohammshukla@gmail.com
 
 # diary:
 ## **Week of 6/27 - 6/31**
