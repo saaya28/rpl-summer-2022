@@ -1,4 +1,4 @@
-#  **this is my daily journal**
+#  ** Argonne Daily Journal **
 
 
 ## **Week of 6/27 - 6/31**
