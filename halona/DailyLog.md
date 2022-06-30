@@ -26,3 +26,9 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### To Do:
 * Finish up with code for PyHamilton
 * Play around with the NUC and neural networks
+### Tasks Accomplished:
+* Mapped out the movements of the liquid handler and wrote code for dilution assay 
+## 6/30
+### To Do:
+* Play around with the NUC
+* Finish the code for PyHamilton
