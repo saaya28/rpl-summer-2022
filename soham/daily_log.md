@@ -1,6 +1,6 @@
 #  Soham Shukla
 
-**Project name** idfk
+**Project name** Self-Driving Labs
 **Advisor** Arvind Ramanathan 
 **Email** sohammshukla@gmail.com
 
