@@ -1,6 +1,8 @@
 # Gillian Camacho
 **Project name:** Pyhamilton Protocol Implementation on Hudson
+
 **Advisor:** Arvind Ramanathan
+
 **Email:** gcamacho@anl.gov
 
 ## Project Description
