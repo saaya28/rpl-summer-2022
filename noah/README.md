@@ -1,4 +1,10 @@
-# Noah Grom Daily Log
+# Noah Grom
+**Project Name:** CELS Shared Services Support **Advisor:** Scott Ehling **Email:** ngrom@anl.gov
+
+## Project Description
+Tasks may include compiling data for operational reporting and stakeholder management, encouraging the CELS quality culture by developing awareness communication content, enabling CELS communications by compiling communication collateral and web content, tracking operational performance metrics (finance, HR, safety and administrative support), developing and implementing project deliverable tracking mechanisms, developing CELS processes and procedures, and a variety of general support tasks in support of the seven core functions. This position is a mission support function that does not specifically conduct scientific research but may assist in operations support of our self driving laboratory initiative and biological sciences research experimental design.
+
+## Diary
 
 ## 06/24
 * I created a daily log on git hub
@@ -14,3 +20,6 @@
 ## 06/28
 * I built a cart for holding the new opentrons 2 robot
 * I learned more about python and why virtual environments are important
+
+## 06/30
+* I continued learning about ROS and ROS2 for robotics
