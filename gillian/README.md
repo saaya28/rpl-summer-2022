@@ -34,4 +34,9 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 * I attended a student connects meeting and panel discussion about possible career paths for my internship program
 
 ### 6/30
-* 
+* I updated my dilution plate code to match the new concentration ideas using 20X stock nitrogen, 10X stock carbon, and 10X stock phosphorus with the different corresponding transfer volumes
+* I attended a meeting outlining DNA assembly and how it was implemented in the past on the OT-2
+* I ran my dilution ideas by Jeff in Bio and he approved it in theory
+* I met with Halona and Arleen to edit the rest of our code for the changes we made to the dilution plate setup and cell stock transfer volumes
+
+### 7/01
