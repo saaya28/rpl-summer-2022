@@ -16,11 +16,25 @@
 * **TODO:**    
   - [x] Finish reading journal club article in depth and split up work for presentation with Mariam tomorrow
   - [x] Create directory 'dashboard' under `AD-SDL/rpl-camera-vision/rpl_cv/` and put your dashboard code there
-  - [ ] Finish writing subscriber.py
-  - [ ] Create a ROS workspace and package by following this [tutorial](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html#new-directory)
+  - [x] Finish writing subscriber.py
+  - [x] Create a ROS workspace and package by following this [tutorial](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html#new-directory)
 
 ## Tuesday, 6.28.22
 * Read journal club article in depth and took notes
 * Met with Mariam to split up the work for the journal club presentation
 * Rory was able to get `opencv` and `rclpy` python packages working on the NUC so I was able to test out my code and debug issues
 * Worked on writing subscriber.py and moved code to rpl-camera-vision repo (have not made a pull request yet - only pushed to my fork for now)
+
+## Wednesday, 6.29.22
+* Worked on subscriber.py
+* Worked on taking notes for journal club article
+
+## Thursday, 6.30.22
+* Finished writing subscriber.py
+* Created ROS package and workspace -- ran into an error and spent time debugging it
+* Made journal club article presentation
+
+## Friday, 7.1.22
+* Made finishing touches on journal club presentation & met with Mariam to go over it
+* Weekly RPL Meeting
+* Gave journal club presentation
