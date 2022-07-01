@@ -40,3 +40,6 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 * I met with Halona and Arleen to edit the rest of our code for the changes we made to the dilution plate setup and cell stock transfer volumes
 
 ### 7/01
+* I met with Halona and Arleen to create our slides for the recap meeting and touch base on how we felt about the code we made so that we could make any necessary corrections before we tested it (we still need to change the transfer volumes from the dilution plate to assay plate from 33 uL to 40uL)
+* I attended this week's group recap meeting and presented about the progress myproject has made
+* I attended journal club and took notes on this week's presentation about machine learning and MRIs 
