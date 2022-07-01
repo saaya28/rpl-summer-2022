@@ -1,5 +1,11 @@
-#  **this is my daily journal**
+#  Soham Shukla
 
+**Project name:** Self-Driving Labs
+**Advisor:** Arvind Ramanathan 
+**Email:** sohammshukla@gmail.com
 
-##  **Week of 6/27 - 6/31**
-# beat Fold.it game, started coding AI to beat the game on its own
+# diary:
+## **Week of 6/27 - 6/31**
+
+### Tuesday (6/28): beat Fold.it game, started learning OpenAI Gym
+### Thursday (6/30): finished coding practice AI for OpenAI Gym, starting on Fold.it AI

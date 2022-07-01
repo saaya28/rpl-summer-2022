@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### Tasks Accomplished
 * Read YOLO paper
 * Completed coding for transfer from cells and dilution assay to final assay plate
-
+* Read XDL paper
 ## 6/28
 ### To Do:
 * Work with Gillian and Arleen on the PyHamilton code
@@ -32,3 +32,7 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### To Do:
 * Play around with the NUC
 * Finish the code for PyHamilton
+### Tasks Accomplished:
+* Finished code for transfer from dilution to final assay
+* Read through transfer learning tutorials
+* Looked at neural networks dealing with iris dataset
