@@ -9,7 +9,7 @@
 * Worked on ROS -- created first package
 
 <h2>6/28: </h2>
-* Continued ROS lessons
+* Continued ROS lessons<br>
 * Created some additional files for the peeler package based on pf400 files
 
 <h2>6/29: </h2>
@@ -17,5 +17,5 @@
 
 
 <h2>6/30: </h2>
-* Continued ROS lessons -- learned more about creating packages and using topics
+* Continued ROS lessons -- learned more about creating packages and using topics<br>
 * Learned about master and the other nodes/modules
