@@ -36,3 +36,11 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 * Finished code for transfer from dilution to final assay
 * Read through transfer learning tutorials
 * Looked at neural networks dealing with iris dataset
+## 7/1
+### To Do:
+* Finish assembling the code
+* Meet Rory to understand more about implementing neural networks on the NUC
+### Tasks Accomplished:
+* Attended journal club
+* Completed third attempt at writing the PyHamilton code
+* Had a meeting with Rory
