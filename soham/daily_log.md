@@ -11,7 +11,7 @@
 ### Thursday (6/30): finished coding practice AI for OpenAI Gym, starting on Fold.it AI
 ### Friday (7/1): talked to Arvind, reading through material about OpenAI and playing around with the code to gain better understanding
 
-<img src="7/1.jpg"
+<img src="July1.jpg"
      alt="Soham Daily Slides"
      style="float: left; margin-right: 10px;" />
 
