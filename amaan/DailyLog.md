@@ -1,12 +1,21 @@
-# Daily Log
+# Amaan Khan
 
-## Friday, 6.24.22
+**Project name:** Robotics Dashboard App   
+**Advisor:** Arvind Ramanathan   
+**Email:** amaan.khan@anl.gov   
+
+## Project description
+In the secure biosystems lab, there are many robots that are in play. It is very difficult to control and debug all the robots separately using command-line-interfaces. Therefore, I am developing a Web Dashboard App that will allow users to view various data visualizations, log outputs, messages from ROS topics, camera outputs, and being able to control the various robots from the app.
+
+## Daily Log
+
+### Friday, 6.24.22
 * Installed ROS on a Ubuntu Virtual Machine
 * Weekly Meeting in rpl
 * Met with Rory and planned out how to create the publisher/subscriber model with the dasboard
 * Journal Club - took notes as the scribe
 
-## Monday, 6.27.22
+### Monday, 6.27.22
 * Finished writing publisher.py and began writing subscriber.py for having the camera publish frames to a ROS topic and have the subscriber subscribe to the topic and send those camera frames to the dashboard when possible.
 * Read on how ROS Workspace Packages work
 * Had weekly meeting with Carla, Frank, Dana, and Mariam where we discussed our progress on our projects
@@ -19,17 +28,17 @@
   - [x] Finish writing subscriber.py
   - [x] Create a ROS workspace and package by following this [tutorial](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html#new-directory)
 
-## Tuesday, 6.28.22
+### Tuesday, 6.28.22
 * Read journal club article in depth and took notes
 * Met with Mariam to split up the work for the journal club presentation
 * Rory was able to get `opencv` and `rclpy` python packages working on the NUC so I was able to test out my code and debug issues
 * Worked on writing subscriber.py and moved code to rpl-camera-vision repo (have not made a pull request yet - only pushed to my fork for now)
 
-## Wednesday, 6.29.22
+### Wednesday, 6.29.22
 * Worked on subscriber.py
 * Worked on taking notes for journal club article
 
-## Thursday, 6.30.22
+### Thursday, 6.30.22
 * Finished writing subscriber.py
 * Created ROS package and workspace -- ran into an error and spent time debugging it
 * Made journal club article presentation
