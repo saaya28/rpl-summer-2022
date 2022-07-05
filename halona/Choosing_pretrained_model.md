@@ -4,6 +4,6 @@ YOLO is extremely fast (45 frames per second) than other object detection algori
 One drawback is that it lags behind state-of-the-art detection systems in accuracy. This shouldn’t be a major problem because we do not want to measure anything but just detect the pipette. Another drawback is that struggles with small objects within the image because of the spatial constraint of the algorithm. This will be a problem for us if we choose to detect residues in the pipette.  
 
 ## Why NOT RCNN? 
-RCNN takes a huge amount of time and cannot be implemented in real time. Also, the search algorithm is fixed so there’s no learning there 
+RCNN takes a huge amount of time and cannot be implemented in real time. Also, the search algorithm is fixed so there’s no learning there. 
 
 https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e 
