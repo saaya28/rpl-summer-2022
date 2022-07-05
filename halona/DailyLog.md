@@ -58,3 +58,7 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 * Research models: understand what kind of models we are looking for
 *  Work on one paper for Priyanka's project
 *  Work on Journal Club presentation
+### Tasks Accomplished:
+* Researched models and found YOLO was common and easy to use
+## 7/6
+* Read more about YOLOx and research other models
