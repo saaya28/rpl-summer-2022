@@ -53,3 +53,8 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 * Attended journal club
 * Completed third attempt at writing the PyHamilton code
 * Had a meeting with Rory
+## 7/5
+### To Do: 
+* Research models: understand what kind of models we are looking for
+*  Work on one paper for Priyanka's project
+*  Work on Journal Club presentation
