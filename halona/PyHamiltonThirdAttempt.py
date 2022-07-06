@@ -477,7 +477,7 @@ soloSoft.getTip(tips)
 transfer_volume = 40
 soloSoft.aspirate(
     position = dilution,
-    aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(1, transfer_volume*11)
+    aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(1, transfer_volume*11),
     aspirate_shift = [0, 0, 2],
     aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,
@@ -503,7 +503,7 @@ soloSoft.getTip(tips)
 transfer_volume = 40 
 soloSoft.aspirate(
     position = dilution,
-    aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume*5)
+    aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume*5),
     aspirate_shift = [0, 0, 2],
     aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,
@@ -525,10 +525,10 @@ soloSoft = SoloSoft(
     plateList = plate_list,
     ) 
 soloSoft.getTip(tips)
-    transfer_volume = 40 
-    soloSoft.aspirate(
+transfer_volume = 40 
+soloSoft.aspirate(
         position = dilution,
-        aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(5, transfer_volume*5)
+        aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(5, transfer_volume*5),
         aspirate_shift = [0, 0, 2],
         aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
@@ -555,7 +555,7 @@ for i in reversed(range(1,6)):
     transfer_volume = 40 
     soloSoft.aspirate(
         position = dilution,
-        aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i+6, transfer_volume)
+        aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i+6, transfer_volume),
         aspirate_shift = [0, 0, 2],
         aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
@@ -580,7 +580,7 @@ for i in reversed(range(7,12)):
     transfer_volume = 40 
     soloSoft.aspirate(
         position = dilution,
-        aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume)
+        aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
         aspirate_shift = [0, 0, 2],
         aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
