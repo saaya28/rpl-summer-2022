@@ -23,3 +23,6 @@ Tasks may include compiling data for operational reporting and stakeholder manag
 
 ## 06/30
 * I continued learning about ROS and ROS2 for robotics
+
+## 07/06
+* I spent some time setting up my resume using the provided template on Overleaf
