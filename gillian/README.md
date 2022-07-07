@@ -47,3 +47,13 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 ### 7/05
 * I found my first 8 papers on DNA assembly and DNA transformation for Priyanka
 * I started to write out the procedures of interest from each of the papers I found
+
+### 7/06
+* I attended a seminar on delivering effective oral and poster presentations
+* I met with Casey, Halona, and Arleen to talk about the progress we have made in our protocol for the Hudson and we scheduled a time to check our hso files and debug the code
+* I attended a talk about bacterial protein nanowires
+* I met for an update with HR to talk about starting my deliverables and to ask any questions I had
+* We all went to 446 to check our code with Abe's help and we decided what we would need to address for correction
+
+### 7/07
+* 
