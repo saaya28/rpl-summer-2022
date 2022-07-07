@@ -61,4 +61,16 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### Tasks Accomplished:
 * Researched models and found YOLO was common and easy to use
 ## 7/6
+### To Do:
 * Read more about YOLOx and research other models
+* Read journal paper again
+### Tasks Accomplished:
+* Read more about YOLOx and StreamYOLO
+* Checked hso files on the SoloSoft and fixed some mistakes
+* Read journal article
+## 7/7
+### To Do:
+* Prepare journal club slides
+* Finalize on which model you will use and tell Rory
+
+* 
