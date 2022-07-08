@@ -496,37 +496,6 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
-soloSoft = SoloSoft(
-    filename = "dilution_C_treatment_3.2.hso",
-    plateList = plate_list,
-    )
-
-soloSoft.getTip(position=tips, num_tips=1)
-
-#prepping C1 cells part 2 (10X)
-for j in range(1,5):
-    for row in rows[::2]:
-        for i in range(3,5):
-            transfer_volume = 150
-            soloSoft.aspirate(
-                position = stock,    
-                aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell(row, 1, transfer_volume),
-                aspirate_shift = [0, 0, 2],
-             #   #aspirate_height = aspirateHeight,
-                syringe_speed = syringeSpeed,        
-                )    
-            soloSoft.dispense(
-                position = dilution,
-                dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell(row, i, transfer_volume),
-                dispense_shift = [0, 0, 2],
-            #    #dispense_height = dispenseHeight,
-                syringe_speed = syringeSpeed,
-                )
-
-soloSoft.shuckTip()
-
-soloSoft.savePipeline()
-
 #Nitrogen
 #N1 should be 20X (1200 uL),N2 should be 10X (600 uL), N3 should be 5X (300 uL), N4 should be 2.5X (150 uL), N5 should be 1.25X (75 uL)
 
@@ -809,9 +778,15 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline() 
 
+soloSoft = SoloSoft(
+    filename = "control_assay.hso",
+    plateList = plate_list,
+    ) 
+
+soloSoft.getTip(tips)
+
 #dilution to assay
 for j in range(1,3):
-    soloSoft.getTip(tips)
     soloSoft.aspirate(
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(12, 180),
@@ -827,7 +802,6 @@ for j in range(1,3):
             #dispense_height = dispenseHeight,
             syringe_speed = syringeSpeed,
             )
-    soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
@@ -842,7 +816,7 @@ The following code transfers nutrients to the final assay plate
 #######Starting new SoloSoft for phosphorus on the assay plate#####
 
 soloSoft = SoloSoft(
-    filename = "dilution_assayP1.hso",
+    filename = "dilution_assay_P_1.hso",
     plateList = plate_list,
     ) 
 
@@ -892,7 +866,7 @@ soloSoft.savePipeline()
 ##########Carbon####### 
 #######Starting a new SoloSoft for carbon on the first half of the assay plate######
 soloSoft = SoloSoft(
-    filename = "dilution_assayC1.hso",
+    filename = "dilution_assay_C_1.hso",
     plateList = plate_list,
     ) 
 
@@ -923,7 +897,7 @@ soloSoft.savePipeline()
 
 #######Starting a new SoloSoft for carbon on the second half of the assay plate######
 soloSoft = SoloSoft(
-    filename = "dilution_assayC2.hso",
+    filename = "dilution_assay_C_2.hso",
     plateList = plate_list,
     ) 
 
@@ -956,7 +930,7 @@ soloSoft.savePipeline()
 #######Starting a new SoloSoft for nitrogen on the first half of the assay plate######
 
 soloSoft = SoloSoft(
-    filename = "dilution_assayN1.hso",
+    filename = "dilution_assay_N_1.hso",
     plateList = plate_list,
     ) 
 
@@ -983,7 +957,7 @@ soloSoft.savePipeline()
 
 #######Starting a new SoloSoft for nitrogen on the second half of the assay plate######
 soloSoft = SoloSoft(
-    filename = "dilution_assayN2.hso",
+    filename = "dilution_assay_N_2.hso",
     plateList = plate_list,
     ) 
 
@@ -1014,18 +988,25 @@ This is the Softlinx part of the code that entails the crane
 movements as well as the execution of the hso files
 '''
 
-softLinx = SoftLinx("Third_attempt", "Third_attempt.slvp") # display name, path to saves
+softLinx = SoftLinx("Fourth_attempt", "Fourth_attempt.slvp") # display name, path to saves
 softLinx.setPlates({"SoftLinx.PlateCrane.Stack5": "Plate_96_Corning_3635_ClearUVAssay", "SoftLinx.PlateCrane.Stack4":"TipBox.50uL.Axygen-EV-50-R-S.tealbox"})
 #this is hwere you would softlinx run solo stuff, preparing diltuion stock (fill stuff in)###############
-list_of_dilution = ["dilution_P_M9.hso","dilution_C_M9.hso","dilution_N_M9.hso","dilution_P_main.hso","dilution_C_main.hso","dilution_N_main.hso","dilution_control.hso"]
+list_of_dilution = ["dilution_P_M9_1.hso", "dilution_P_M9_1.hso", "dilution_C_M9_1.hso", 
+                    "dilution_C_M9_2.hso", "dilution_C_M9_3.hso", "dilution_N_M9_1.hso", 
+                    "dilution_N_M9_2.hso", "dilution_P_treatment_1.hso", "dilution_P_treatment_2.hso", 
+                    "dilution_C_treatment_1.hso", "dilution_C_treatment_2.hso", 
+                    "dilution_C_treatment_3.hso", "dilution_C_treatment_3.hso", 
+                    "dilution_N_treatment_1.hso", "dilution_N_treatment_2.hso", 
+                    "dilution_N_treatment_3.hso", "dilution_control.hso" ]
 for c in list_of_dilution:
     softLinx.soloSoftRun(c)
 softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack5"],["SoftLinx.Solo.Position4"],poolID = 5)
 softLinx.plateCraneRemoveLid(["SoftLinx.Solo.Position4"],["SoftLinx.PlateCrane.LidNest2"])
 softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack4"],["SoftLinx.Solo.Position3"],poolID = 4)
 #prep the first assay plate###### 
-list_of_final = ["dilution_assayP1.hso","cells_assay1.hso","cells_assay2.hso","dilution_assayC1.hso","dilution_assayC2.hso",
-"dilution_assayN1.hso","dilution_assayN2.hso"]
+list_of_final = ["cells_assay_1.hso", "cells_assay_2.hso", "control_assay.hso", 
+                "dilution_assay_P_1.hso", "dilution_assay_C_1.hso", "dilution_assay_C_2.hso", 
+                "dilution_assay_N_1.hso", "dilution_assay_N_2.hso"]
 for c in list_of_final:
     softLinx.soloSoftRun(c)
 softLinx.plateCraneMovePlate(["SoftLinx.Solo.Position4"],["SoftLinx.Hidex.Nest"])
