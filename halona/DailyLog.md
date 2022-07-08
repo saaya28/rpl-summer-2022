@@ -1,3 +1,12 @@
+# Halona Dantes
+**Project name:** Computer Vision/ PyHamilton Protocol Implementation
+**Advisor:** Arvind Ramanathan
+**Email:** hdantes@anl.gov
+## Project Description
+**Vision**
+Our main goal is finding the presence and location of key objects in the image, to measure if the robot has picked up or moved the correct hardware in the scene. The network should be able to identify different key items depending on the training data, yet be robust to visual interference caused by other objects in the scene and backgrounds and lighting conditions. Our secondary goal is training a network to analyze a material such as liquid in a beaker, the contents of a pipette, or textured objects like a used petri dish. This network should be able to classify the object into predefined categories to inform the robot of the current experimental progress. This network will also need to be robust to visual interference from the scene.
+**PyHamilton**
+The goal is to reproduce one of the biological experiments presented in the PyHamilton paper using the Python interface that has been developed for the Hudson SOLO liquid handler and Hudson SoftLinx integration system. We aim to prove that our completely open-source Python API is capable of executing the same biological experiments as Pyhamilton with similar results. Students on this project will also contribute to the growing library of biological protocols written for our Hudson robotic experimentation platform.
 ## 6/24
 * I made a folder on the repo
 * I went through a tutorial on Pytorch
@@ -44,3 +53,24 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 * Attended journal club
 * Completed third attempt at writing the PyHamilton code
 * Had a meeting with Rory
+## 7/5
+### To Do: 
+* Research models: understand what kind of models we are looking for
+*  Work on one paper for Priyanka's project
+*  Work on Journal Club presentation
+### Tasks Accomplished:
+* Researched models and found YOLO was common and easy to use
+## 7/6
+### To Do:
+* Read more about YOLOx and research other models
+* Read journal paper again
+### Tasks Accomplished:
+* Read more about YOLOx and StreamYOLO
+* Checked hso files on the SoloSoft and fixed some mistakes
+* Read journal article
+## 7/7
+### To Do:
+* Prepare journal club slides
+* Finalize on which model you will use and tell Rory
+
+* 

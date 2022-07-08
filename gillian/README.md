@@ -7,6 +7,7 @@
 
 ## Project Description
 In a recent paper entitled "Flexible open-source automation for robotic engineering" (Chroy et al. 2021), a new software package named Pyhamilton was presented which allows the user to program the actions of Hamilton STAR and STARlet liquid handling robots using standard Python. The capabilities of Pyhamilton were demonstrated by preforming several biological experiments including the use of a feedback loop to maintain culture turbidostats and a high-throughput perturbation analysis of metabolites.For this project, we will reproduce one of the biological experiments presented in this paper using the Python interface that has been developed for the Hudson SOLO liquid handler and Hudson SoftLinx integration system. We aim to prove that our completely open-source Python API is capable of executing the same biological experiments as Pyhamilton with similar results. Students on this project will also contribute to the growing library of biological protocols written for our Hudson robotic experimentation platform.
+
 Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 
 ## Diary
@@ -43,3 +44,24 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 * I met with Halona and Arleen to create our slides for the recap meeting and touch base on how we felt about the code we made so that we could make any necessary corrections before we tested it (we still need to change the transfer volumes from the dilution plate to assay plate from 33 uL to 40uL)
 * I attended this week's group recap meeting and presented about the progress myproject has made
 * I attended journal club and took notes on this week's presentation about machine learning and MRIs 
+
+### 7/05
+* I found my first 8 papers on DNA assembly and DNA transformation for Priyanka
+* I started to write out the procedures of interest from each of the papers I found
+
+### 7/06
+* I attended a seminar on delivering effective oral and poster presentations
+* I met with Casey, Halona, and Arleen to talk about the progress we have made in our protocol for the Hudson and we scheduled a time to check our hso files and debug the code
+* I attended a talk about bacterial protein nanowires
+* I met for an update with HR to talk about starting my deliverables and to ask any questions I had
+* We all went to 446 to check our code with Abe's help and we decided what we would need to address for correction
+
+### 7/07
+* I read the paper that will be presented on in journal club this week
+* I attended a github tutorial from Alex Brace
+* I calculated how to change the volumes in our protocol to work with the size of pipettes we have available and started rewriting the code in those sections
+* I met with Arleen to finish the changes we had to make, and we will keep thinking of ways to make what we wrote shorthand because we were not able to think of any solutions
+
+### 7/08
+* I checked the code I wrote on 7/08 for errors and documentation problems
+* I met with Halona and Arleen to make our presentation for the recap meeting at 11:00
