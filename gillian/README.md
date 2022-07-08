@@ -60,3 +60,8 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 * I read the paper that will be presented on in journal club this week
 * I attended a github tutorial from Alex Brace
 * I calculated how to change the volumes in our protocol to work with the size of pipettes we have available and started rewriting the code in those sections
+* I met with Arleen to finish the changes we had to make, and we will keep thinking of ways to make what we wrote shorthand because we were not able to think of any solutions
+
+### 7/08
+* I checked the code I wrote on 7/08 for errors and documentation problems
+* I met with Halona and Arleen to make our presentation for the recap meeting at 11:00
