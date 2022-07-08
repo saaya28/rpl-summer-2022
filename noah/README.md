@@ -26,3 +26,9 @@ Tasks may include compiling data for operational reporting and stakeholder manag
 
 ## 07/06
 * I spent some time setting up my resume using the provided template on Overleaf
+
+## 07/07
+* I started creating my personal website.
+
+## 07/08
+* I continued working on my personal website.
