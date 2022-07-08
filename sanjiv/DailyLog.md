@@ -34,16 +34,16 @@ Creating a fully autonomous lab with robots used for biology experiments.
 * Learned about master and the other nodes/modules
 
 <h2>7/1 </h2>
-* Started creating Readme for the peeler driver
+* Started creating Readme for the peeler driver <br>
 * Based it off of pf400 Readme
 
 <h2> 7/5 </h2>
-* Finished creating a more comprehensive Readme
-* Cleaned up azenta driver and pushed the updated version
+* Finished creating a more comprehensive Readme <br>
+* Cleaned up azenta driver and pushed the updated version 
 
 <h2> 7/6 </h2>
-* Converted resume to overleaf
+* Converted resume to overleaf <br>
 
 <h2> 7/7 </h2>
-* Worked on creating personal website
+* Worked on creating personal website <br>
 * Continued ROS lessons
