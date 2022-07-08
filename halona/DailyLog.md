@@ -72,5 +72,6 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### To Do:
 * Prepare journal club slides
 * Finalize on which model you will use and tell Rory
+### Tasks Accomplished:
+* Finished and practiced Journal Club presentation with Arleen
 
-* 
