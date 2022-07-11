@@ -65,3 +65,7 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 ### 7/08
 * I checked the code I wrote on 7/08 for errors and documentation problems
 * I met with Halona and Arleen to make our presentation for the recap meeting at 11:00
+* I attended the group recap meeting and journal club presentatinos
+
+### 7/11
+* 
