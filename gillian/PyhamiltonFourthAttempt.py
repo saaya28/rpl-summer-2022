@@ -79,6 +79,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: after running twice, uses 4 tips#
+
 '''Carbon columns
 C1 cells should have no media
 C2 cells should have 600 ul media
@@ -117,6 +119,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: uses 1 tips (5 total at this point)
+
 #C3#
 soloSoft = SoloSoft(
     filename = "dilution_C_M9_2.hso",
@@ -148,6 +152,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: uses 1 tips (6 total at this point)
+
 #C4#
 soloSoft = SoloSoft(
     filename = "dilution_C_M9_3.hso",
@@ -178,6 +184,8 @@ for j in range(1,7):
 soloSoft.shuckTip()
 
 soloSoft.savePipeline()
+
+#TIPS: uses 1 tips (7 total at this point)
 
 '''Nitrogen columns
 column 7 should have no media
@@ -234,6 +242,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: uses a column of tips (2 columns used at this point)
+
 soloSoft = SoloSoft(
     filename = "dilution_N_M9_2.hso",
     plateList = plate_list,
@@ -280,6 +290,8 @@ for j in range(1,10):
 soloSoft.shuckTip()
 
 soloSoft.savePipeline()
+
+#TIPS: uses a column of tips (3 columns used at this point)
 
 ############################Treatments into dilution plate#############################
 rows = ["A", "B", "C", "D", "E", "F", "G", "H"]
@@ -352,6 +364,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: uses 2 tips (3 columns and 2 of fourth column used at this point)
+
 soloSoft = SoloSoft(
     filename = "dilution_P_treatment_2.hso",
     plateList = plate_list,
@@ -382,6 +396,8 @@ for j in range(1,9):
 soloSoft.shuckTip()
 
 soloSoft.savePipeline()
+
+#TIPS: uses 2 tips (3 columns and 4 of fourth column used at this point)
 
 #Carbon
 soloSoft = SoloSoft(
@@ -434,6 +450,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: uses 1 tip (3 columns and 5 of fourth column used at this point)
+
 #prepping C2 cells (5X)
 soloSoft = SoloSoft(
     filename = "dilution_C_treatment_2.hso",
@@ -465,6 +483,9 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: uses 1 tip (3 columns and 6 of fourth column used at this point)
+
+
 soloSoft = SoloSoft(
     filename = "dilution_C_treatment_3.hso",
     plateList = plate_list,
@@ -495,6 +516,9 @@ for j in range(1,5):
 soloSoft.shuckTip()
 
 soloSoft.savePipeline()
+
+#TIPS: uses 1 tip (3 columns and 8 of fourth column used at this point because run twice)
+
 
 #Nitrogen
 #N1 should be 20X (1200 uL),N2 should be 10X (600 uL), N3 should be 5X (300 uL), N4 should be 2.5X (150 uL), N5 should be 1.25X (75 uL)
@@ -564,6 +588,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline() 
 
+#TIPS: uses 1 column (5 colums used at this point)
+
 ###N2####
 soloSoft = SoloSoft(
     filename = "dilution_N_treatment_2.hso",
@@ -592,6 +618,8 @@ for j in range(1,5):
 soloSoft.shuckTip()
 
 soloSoft.savePipeline()
+
+#TIPS: uses 1 column (6 colums used at this point)
 
 ######N1#######
 soloSoft = SoloSoft(
@@ -622,7 +650,15 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline()
 
+#TIPS: uses 1 column (7 colums used at this point)
+
 ##############################making control#####################################
+
+#need to change tip box before prepping control column#
+
+
+
+
 '''
 The following code makes the control column on the dilution plate (control means 1x of every nutrient and no cells)
 '''
@@ -719,6 +755,10 @@ soloSoft.dispense(
 
 soloSoft.shuckTip()
 
+soloSoft.savePipeline()
+
+#TIPS: uses 4 columns of tips
+
 #############################cells to assay##########################
 '''
 The following code transfers cells to the final assay plate
@@ -751,6 +791,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline() 
 
+#TIPS: uses 1 column of tips (5 columns used at this point)
+
 soloSoft = SoloSoft(
     filename = "cells_assay_2.hso",
     plateList = plate_list,
@@ -778,6 +820,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline() 
 
+#TIPS: uses 1 column of tips (6 columns used at this point)
+
 soloSoft = SoloSoft(
     filename = "control_assay.hso",
     plateList = plate_list,
@@ -804,6 +848,8 @@ for j in range(1,3):
             )
 
 soloSoft.savePipeline()
+
+#TIPS: uses 1 column of tips (7 columns used at this point)
 
 ################################################################
 
@@ -863,6 +909,9 @@ for i in range(1,3):
 
 soloSoft.savePipeline() 
 
+#TIPS: uses 1 column of tips (8 columns used at this point) EMPTY
+#NEED TO GET NEW TIP BOX
+
 ##########Carbon####### 
 #######Starting a new SoloSoft for carbon on the first half of the assay plate######
 soloSoft = SoloSoft(
@@ -895,6 +944,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline() 
 
+#TIPS: uses 1 column of tips
+
 #######Starting a new SoloSoft for carbon on the second half of the assay plate######
 soloSoft = SoloSoft(
     filename = "dilution_assay_C_2.hso",
@@ -926,6 +977,8 @@ soloSoft.shuckTip()
 
 soloSoft.savePipeline() 
 
+#TIPS: uses 1 column of tips (2 columns used at this point)
+
 #######Nitrogen############ 
 #######Starting a new SoloSoft for nitrogen on the first half of the assay plate######
 
@@ -954,6 +1007,9 @@ for i in reversed(range(1,6)):
     soloSoft.shuckTip()
 
 soloSoft.savePipeline() 
+
+#TIPS: uses 5 column of tips (7 columns used at this point)
+#GET NEW TIP BOX HERE#
 
 #######Starting a new SoloSoft for nitrogen on the second half of the assay plate######
 soloSoft = SoloSoft(
@@ -991,27 +1047,48 @@ movements as well as the execution of the hso files
 softLinx = SoftLinx("Fourth_attempt", "Fourth_attempt.slvp") # display name, path to saves
 softLinx.setPlates({"SoftLinx.PlateCrane.Stack5": "Plate_96_Corning_3635_ClearUVAssay", "SoftLinx.PlateCrane.Stack4":"TipBox.50uL.Axygen-EV-50-R-S.tealbox"})
 #this is hwere you would softlinx run solo stuff, preparing diltuion stock (fill stuff in)###############
+softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack5"],["SoftLinx.Solo.Position4"],poolID = 5)
+softLinx.plateCraneRemoveLid(["SoftLinx.Solo.Position4"],["SoftLinx.PlateCrane.LidNest2"])
+softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack4"],["SoftLinx.Solo.Position3"],poolID = 4)
+
 list_of_dilution = ["dilution_P_M9_1.hso", "dilution_P_M9_1.hso", "dilution_C_M9_1.hso", 
                     "dilution_C_M9_2.hso", "dilution_C_M9_3.hso", "dilution_N_M9_1.hso", 
                     "dilution_N_M9_2.hso", "dilution_P_treatment_1.hso", "dilution_P_treatment_2.hso", 
                     "dilution_C_treatment_1.hso", "dilution_C_treatment_2.hso", 
                     "dilution_C_treatment_3.hso", "dilution_C_treatment_3.hso", 
                     "dilution_N_treatment_1.hso", "dilution_N_treatment_2.hso", 
-                    "dilution_N_treatment_3.hso", "dilution_control.hso" ]
+                    "dilution_N_treatment_3.hso"]
+
 for c in list_of_dilution:
     softLinx.soloSoftRun(c)
-softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack5"],["SoftLinx.Solo.Position4"],poolID = 5)
-softLinx.plateCraneRemoveLid(["SoftLinx.Solo.Position4"],["SoftLinx.PlateCrane.LidNest2"])
+softLinx.plateCraneMovePlate(["SoftLinx.Solo.Position3"],["SoftLinx.PlateCrane.Stack2"],,poolID = 2)
 softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack4"],["SoftLinx.Solo.Position3"],poolID = 4)
+softLinx.soloSoftRun("dilution_control.hso")
+
 #prep the first assay plate###### 
-list_of_final = ["cells_assay_1.hso", "cells_assay_2.hso", "control_assay.hso", 
-                "dilution_assay_P_1.hso", "dilution_assay_C_1.hso", "dilution_assay_C_2.hso", 
-                "dilution_assay_N_1.hso", "dilution_assay_N_2.hso"]
-for c in list_of_final:
+list_of_final_1 = ["cells_assay_1.hso", "cells_assay_2.hso", "control_assay.hso", 
+                "dilution_assay_P_1.hso"]               
+list_of_final_2= ["dilution_assay_C_1.hso", "dilution_assay_C_2.hso", 
+                "dilution_assay_N_1.hso"]
+# still run at end "dilution_assay_N_2.hso"
+
+for c in list_of_final_1:
     softLinx.soloSoftRun(c)
+softLinx.plateCraneMovePlate(["SoftLinx.Solo.Position3"],["SoftLinx.PlateCrane.Stack2"],,poolID = 2)
+softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack4"],["SoftLinx.Solo.Position3"],poolID = 4)
+for c in list_of_final_2:
+    softLinx.soloSoftRun(c)
+softLinx.plateCraneMovePlate(["SoftLinx.Solo.Position3"],["SoftLinx.PlateCrane.Stack2"],,poolID = 2)
+softLinx.plateCraneMovePlate(["SoftLinx.PlateCrane.Stack4"],["SoftLinx.Solo.Position3"],poolID = 4)
+softLinx.soloSoftRun("dilution_assay_N_2.hso")
+
 softLinx.plateCraneMovePlate(["SoftLinx.Solo.Position4"],["SoftLinx.Hidex.Nest"])
 softLinx.plateCraneMoveCrane("SoftLinx.PlateCrane.Safe")
 softLinx.hidexRun("pyhamilton")
 softLinx.plateCraneMovePlate(["SoftLinx.Hidex.Nest"],["SoftLinx.Liconic.Nest"])
 softLinx.plateCraneReplaceLid(["SoftLinx.PlateCrane.LidNest2"],["SoftLinx.Liconic.Nest"])
 softLinx.liconicLoadIncubator(loadID=1)
+
+softLinx.plateCraneMovePlate(["SoftLinx.Solo.Position3"],["SoftLinx.PlateCrane.Stack2"],,poolID = 2)
+
+#at this point the layout has been reset so a new plate can be made be repeating the same thing#
