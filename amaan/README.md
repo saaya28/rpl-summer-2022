@@ -1,6 +1,6 @@
 # Amaan Khan
 
-**Project name:** Robotics Dashboard App   
+**Project name:** Robotics Dashboard Web App for Laboratory Monitoring   
 **Advisor:** Arvind Ramanathan   
 **Email:** amaan.khan@anl.gov   
 
@@ -71,3 +71,9 @@ In the secure biosystems lab, there are many robots that are in play. It is very
 * Had weekly meeting with Carla and team - updated on progress
 * Socket server portion successfully works now. Fixed a bug where it kept saying that the connection/port is already in use. I had tried changing ports but it never fixed it. Finally realized that if I turned the 'debug' status to False in the Flask App it will fix the error. 
 * Dashboard app with the publisher and subscriber nodes now work successfully. Publisher sends frames to a ros topic, where the subscriber listens in on that topic, and when new frames arrive, it sends it through a socket server to the dashboard, which then displays the live video feed successfully.
+* Gave a live demo of my dashboard app working with the publisher + subscriber + socket-server to Rory and Dr. Ramanathan.
+* Rory and I discussed next steps to do.
+* **TODO**    
+  - [ ] Clean up code, comment/document code, rename files/packages to be better, remove unncessary files, and commit + push everything to your forked repo.    
+  - [ ] Create pull request w/ your forked repo   
+  - [ ] NEW Feature: Create a way for the dashboard to have a button that when you click, it sends a message to a ROS topic (e.g., "log_topic"), and then create a subscriber on the NUC that subscribes to that ros topic and prints out the messages whenever it receives it.   
