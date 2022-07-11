@@ -74,4 +74,9 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 * Finalize on which model you will use and tell Rory
 ### Tasks Accomplished:
 * Finished and practiced Journal Club presentation with Arleen
+## 7/11
+### To Do:
+* Select two papers for Priyanka and work on them
+* Select a pre-trained model
+* Start pre-processing images
 
