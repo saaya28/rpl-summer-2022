@@ -1,6 +1,6 @@
 # Amaan Khan
 
-**Project name:** Robotics Dashboard App   
+**Project name:** Robotics Dashboard Web App for Laboratory Monitoring   
 **Advisor:** Arvind Ramanathan   
 **Email:** amaan.khan@anl.gov   
 
