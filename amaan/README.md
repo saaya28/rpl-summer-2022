@@ -50,6 +50,7 @@ In the secure biosystems lab, there are many robots that are in play. It is very
 
 ## Tuesday, 7.5.22
 * Spent time debugging the ROS package/workspace error
+* Had weekly meeting with Carla and team
 
 ## Wednesday 7.6.22
 * Fixed ROS package/workspace error
@@ -67,5 +68,6 @@ In the secure biosystems lab, there are many robots that are in play. It is very
 * Journal Club at 2pm
 
 ## Monday, 7.11.22
+* Had weekly meeting with Carla and team - updated on progress
 * Socket server portion successfully works now. Fixed a bug where it kept saying that the connection/port is already in use. I had tried changing ports but it never fixed it. Finally realized that if I turned the 'debug' status to False in the Flask App it will fix the error. 
 * Dashboard app with the publisher and subscriber nodes now work successfully. Publisher sends frames to a ros topic, where the subscriber listens in on that topic, and when new frames arrive, it sends it through a socket server to the dashboard, which then displays the live video feed successfully.
