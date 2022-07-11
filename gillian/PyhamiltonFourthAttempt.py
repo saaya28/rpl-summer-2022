@@ -24,12 +24,12 @@ syringeSpeed = 50
 cells_volume = 80
 
 plate_list= [
+        "DeepBlock.96.VWR-75870-792.sterile",
         "Empty",
-        "Empty",
-        "TipBox.50uL.Axygen-EV-50-R-S.tealbox",
+        "TipBox.180uL.Axygen-EVF-180-R-S.bluebox",
         "Plate.96.Corning-3635.ClearUVAssay", 
         "Empty",
-        "Plate.96.Corning-3635.ClearUVAssay",
+        "DeepBlock.96.VWR-75870-792.sterile",
         "Plate.96.Corning-3635.ClearUVAssay", #actually liquid waste,
         "Empty",
    ]
@@ -537,15 +537,15 @@ soloSoft.aspirate(
     position = stock,
     aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume*0.5),
     aspirate_shift = [0, 0, 2],
-    aspirate_height = aspirateHeight,
+    #aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,
     ) 
 
 soloSoft.dispense(
-    position = assay,
+    position = dilution,
     dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(11, transfer_volume*0.5),
     dispense_shift = [0, 0, 2],
-    dispense_height = dispenseHeight,
+   # dispense_height = dispenseHeight,
     syringe_speed = syringeSpeed,
     )
 
@@ -555,7 +555,7 @@ soloSoft.aspirate(
     position = stock,
     aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume),
     aspirate_shift = [0, 0, 2],
-    aspirate_height = aspirateHeight,
+   # aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,        
     )
 
@@ -563,7 +563,7 @@ soloSoft.dispense(
     position = dilution,
     dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(10, transfer_volume),
     dispense_shift = [0, 0, 2],
-    dispense_height = dispenseHeight,
+   # dispense_height = dispenseHeight,
     syringe_speed = syringeSpeed,
     )
 
@@ -573,14 +573,14 @@ for j in range(1,3):
         position = stock,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume),
         aspirate_shift = [0, 0, 2],
-        aspirate_height = aspirateHeight,
+        #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,        
         )
     soloSoft.dispense(
         position = dilution,
         dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(9, transfer_volume),
         dispense_shift = [0, 0, 2],
-        dispense_height = dispenseHeight,
+       # dispense_height = dispenseHeight,
         syringe_speed = syringeSpeed,
         )
 
@@ -604,14 +604,14 @@ for j in range(1,5):
         position = stock,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume),
         aspirate_shift = [0, 0, 2],
-        aspirate_height = aspirateHeight,
+       # aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,        
         )
     soloSoft.dispense(
         position = dilution,
         dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(8, transfer_volume),
         dispense_shift = [0, 0, 2],
-        dispense_height = dispenseHeight,
+        #dispense_height = dispenseHeight,
         syringe_speed = syringeSpeed,
         )
 
@@ -635,14 +635,14 @@ for j in range(1,9):
         position = stock,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume),
         aspirate_shift = [0, 0, 2],
-        aspirate_height = aspirateHeight,
+      #  aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,        
         )
     soloSoft.dispense(
         position = dilution,
         dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(7, transfer_volume),
         dispense_shift = [0, 0, 2],
-        dispense_height = dispenseHeight,
+     #   dispense_height = dispenseHeight,
         syringe_speed = syringeSpeed,
         )
 
