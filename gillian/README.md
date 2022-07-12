@@ -68,4 +68,6 @@ Link to paper: https://pubmed.ncbi.nlm.nih.gov/33764680/
 * I attended the group recap meeting and journal club presentatinos
 
 ### 7/11
-* 
+* I wrote protocol for a paper I found for Priyanka
+* I met with Arleen and Halona to decide when we would need to refill tip boxes in our pyhamilton protocol and also recheck the math for the dilutions I made
+* We all went to the bio building 446 to test our code in the lab, which involved making sure the code had no errors, making sure the hso files had less than 72 steps each, and seeing how the robot carried out what we called for. It was successful overall, we just have to make a change to use one full plate of M9 and one full plate of stock treatments instead of letting them split a plate. While we were there we also defined the deep well plates correctly and defined the position of the stock plate and the size of tips we were using
