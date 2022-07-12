@@ -79,4 +79,14 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 * Select two papers for Priyanka and work on them
 * Select a pre-trained model
 * Start pre-processing images
+### Tasks AccomplishedL
+* Worked on two papers for Priyanka
+* Chose YOLO for the pre-trained model
+## 7/12
+### To Do:
+* Meet Rory today to talk about pre-processing
+* Work on code
+### Tasks Accomplished:
+* We worked on the volumes of the deep well
+
 
