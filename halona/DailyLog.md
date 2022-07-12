@@ -82,6 +82,7 @@ https://user-images.githubusercontent.com/72309881/175628210-b9f65c51-b90b-44b9-
 ### Tasks AccomplishedL
 * Worked on two papers for Priyanka
 * Chose YOLO for the pre-trained model
+* We tested the hso files on the Hudson robot in Bld 446
 ## 7/12
 ### To Do:
 * Meet Rory today to talk about pre-processing
