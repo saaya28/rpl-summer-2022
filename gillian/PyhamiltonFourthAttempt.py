@@ -22,6 +22,8 @@ stock_treatments = "Position1"
 dispenseHeight = 2
 aspirateHeight = 2
 syringeSpeed = 50
+mixCycles = 3
+mixVolume = 60
 cells_volume = 80
 
 plate_list= [
@@ -314,6 +316,9 @@ for i in range(1,3):
         position = stock_treatments,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell('G', 9, transfer_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,        
         )    
@@ -333,6 +338,9 @@ for j in range(1,3):
             position = stock_treatments,
             aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell('E', 9, transfer_volume),
             aspirate_shift = [0, 0, 2],
+            mix_at_start = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #aspirate_height = aspirateHeight,
             syringe_speed = syringeSpeed,        
             )    
@@ -352,6 +360,9 @@ for j in range(1,5):
             position = stock_treatments,
             aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell('C', i+8, transfer_volume),
             aspirate_shift = [0, 0, 2],
+            mix_at_start = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #aspirate_height = aspirateHeight,
             syringe_speed = syringeSpeed,        
             )    
@@ -385,6 +396,9 @@ for j in range(1,9):
             position = stock_treatments,
             aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell('A', ((j-1)//2) + 9, transfer_volume),
             aspirate_shift = [0, 0, 2],
+            mix_at_start = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #aspirate_height = aspirateHeight,
             syringe_speed = syringeSpeed,        
             )    
@@ -418,6 +432,9 @@ for row in rows[1::2]:
             position = stock_treatments,    
             aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell(row, 1, transfer_volume),
             aspirate_shift = [0, 0, 2],
+            mix_at_start = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #aspirate_height = aspirateHeight,
             syringe_speed = syringeSpeed,        
             )    
@@ -438,6 +455,9 @@ for j in range(1,3):
                 position = stock_treatments,    
                 aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell(row, 1, transfer_volume),
                 aspirate_shift = [0, 0, 2],
+                mix_at_start = True,
+                mix_cycles = mixCycles,
+                mix_volume = mixVolume,
                 #aspirate_height = aspirateHeight,
                 syringe_speed = syringeSpeed,        
                 )    
@@ -471,6 +491,9 @@ for j in range(1,5):
                 position = stock_treatments,    
                 aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell(row, i-1, transfer_volume),
                 aspirate_shift = [0, 0, 2],
+                mix_at_start = True,
+                mix_cycles = mixCycles,
+                mix_volume = mixVolume,
                 #aspirate_height = aspirateHeight,
                 syringe_speed = syringeSpeed,        
                 )    
@@ -505,6 +528,9 @@ for j in range(1,5):
                 position = stock_treatments,    
                 aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setCell(row, i, transfer_volume),
                 aspirate_shift = [0, 0, 2],
+                mix_at_start = True,
+                mix_cycles = mixCycles,
+                mix_volume = mixVolume,
              #   #aspirate_height = aspirateHeight,
                 syringe_speed = syringeSpeed,        
                 )    
@@ -540,6 +566,9 @@ soloSoft.aspirate(
     position = stock_treatments,
     aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(5, transfer_volume*0.5),
     aspirate_shift = [0, 0, 2],
+    mix_at_start = True,
+    mix_cycles = mixCycles,
+    mix_volume = mixVolume,
     #aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,
     ) 
@@ -558,6 +587,9 @@ soloSoft.aspirate(
     position = stock_treatments,
     aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(5, transfer_volume),
     aspirate_shift = [0, 0, 2],
+    mix_at_start = True,
+    mix_cycles = mixCycles,
+    mix_volume = mixVolume,
    # aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,        
     )
@@ -576,6 +608,9 @@ for j in range(1,3):
         position = stock_treatments,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(5, transfer_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,        
         )
@@ -607,6 +642,9 @@ for j in range(1,5):
         position = stock_treatments,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(6, transfer_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
        # aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,        
         )
@@ -638,6 +676,9 @@ for j in range(1,9):
         position = stock_treatments,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(((j-1)//4)+7, transfer_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
       #  aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,        
         )
@@ -701,6 +742,9 @@ soloSoft.aspirate(
     position = stock_treatments,
     aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(4, c_control_volume),
     aspirate_shift = [0, 0, 2],
+    mix_at_start = True,
+    mix_cycles = mixCycles,
+    mix_volume = mixVolume,
     ##aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,
     )
@@ -723,6 +767,9 @@ soloSoft.aspirate(
     position = stock_treatments,
     aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(12, p_control_volume),
     aspirate_shift = [0, 0, 2],
+    mix_at_start = True,
+    mix_cycles = mixCycles,
+    mix_volume = mixVolume,
     #aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,
     )
@@ -745,6 +792,9 @@ soloSoft.aspirate(
     position = stock_treatments,
     aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(4, n_control_volume),
     aspirate_shift = [0, 0, 2],
+    mix_at_start = True,
+    mix_cycles = mixCycles,
+    mix_volume = mixVolume,
     #aspirate_height = aspirateHeight,
     syringe_speed = syringeSpeed,
     )
@@ -779,6 +829,9 @@ for i in range(1,6):
         position = cells,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, cells_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         ##aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         )
@@ -808,6 +861,9 @@ for i in range(7,12):
         position = cells,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, cells_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         ##aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         )
@@ -838,6 +894,9 @@ for j in range(1,3):
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(12, 180),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         )
@@ -879,15 +938,20 @@ for i in range(1,3):
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(1, transfer_volume*5),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         ) 
     for i in range(1,6):
-        #if i!= 6:
         soloSoft.dispense(
             position = assay,
             dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
             dispense_shift = [0, 0, 2],
+            mix_at_finish = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #dispense_height = dispenseHeight,
             syringe_speed = syringeSpeed,
             )
@@ -897,15 +961,20 @@ for i in range(1,3):
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(2, transfer_volume*5),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         ) 
     for i in range(7,12):
-        #if i!= 6:
         soloSoft.dispense(
             position = assay,
             dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
             dispense_shift = [0, 0, 2],
+            mix_at_finish = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #dispense_height = dispenseHeight,
             syringe_speed = syringeSpeed,
             )
@@ -931,6 +1000,9 @@ for i in range(1,3):
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(3, transfer_volume*5),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         ) 
@@ -939,6 +1011,9 @@ for i in range(1,3):
             position = assay,
             dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
             dispense_shift = [0, 0, 2],
+            mix_at_finish = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #dispense_height = dispenseHeight,
             syringe_speed = syringeSpeed,
             )
@@ -964,6 +1039,9 @@ for i in range(1,3):
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(5, transfer_volume*5),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         ) 
@@ -972,6 +1050,9 @@ for i in range(1,3):
             position = assay,
             dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
             dispense_shift = [0, 0, 2],
+            mix_at_finish = True,
+            mix_cycles = mixCycles,
+            mix_volume = mixVolume,
             #dispense_height = dispenseHeight,
             syringe_speed = syringeSpeed,
             )
@@ -997,6 +1078,9 @@ for i in reversed(range(1,6)):
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i+6, transfer_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         ) 
@@ -1004,6 +1088,9 @@ for i in reversed(range(1,6)):
         position = assay,
         dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
         dispense_shift = [0, 0, 2],
+        mix_at_finish = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #dispense_height = dispenseHeight,
         syringe_speed = syringeSpeed,
         )
@@ -1027,6 +1114,9 @@ for i in reversed(range(7,12)):
         position = dilution,
         aspirate_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
         aspirate_shift = [0, 0, 2],
+        mix_at_start = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #aspirate_height = aspirateHeight,
         syringe_speed = syringeSpeed,
         ) 
@@ -1034,6 +1124,9 @@ for i in reversed(range(7,12)):
         position = assay,
         dispense_volumes = Plate_96_Corning_3635_ClearUVAssay().setColumn(i, transfer_volume),
         dispense_shift = [0, 0, 2],
+        mix_at_finish = True,
+        mix_cycles = mixCycles,
+        mix_volume = mixVolume,
         #dispense_height = dispenseHeight,
         syringe_speed = syringeSpeed,
         )
