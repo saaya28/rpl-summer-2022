@@ -1,7 +1,9 @@
 # Weekly Log Argonne 2022
 Saaya Patel<br/>
 Email: saayap28@gmail.com<br/>
-Advisor: Arvind Ramanathan
+Advisor: Arvind Ramanathan<br/>
+Project: Vision System which Enables the System to Identify Progress by Recognizing the Location of the Different Parts and Understanding Which Pixels Belong to Individual Parts of the System.
+
 
 Each week I attend the Thursday Lecture and the Friday Student Meeting
 
