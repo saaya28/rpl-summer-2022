@@ -30,4 +30,5 @@ Intro to Practice Datasets of Boxes and Circles<br/>
 Researching Potential Platforms to use for Transfer Learning: Versions of YOLO <br/>
 Uploading Data Sets to Personal Computer<br/>
 Decided that Version 4 would be Best Utilized <br/>
-Working on Preprocessing and How to Implement the YOLOv4 to Identify the "Just Boxes" Dataset <br/>
+After extensive Research about YOLOv5, it is Apparent the Lack of Documentation and the Additonal Complexities, thus I decided it would be best to use YOLOv5 for the Datasets<br/>
+Working on Preprocessing and How to Implement the YOLOv5 to Identify the "Just Boxes" Dataset <br/>
