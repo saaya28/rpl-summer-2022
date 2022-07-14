@@ -27,6 +27,7 @@ Understanding Neural Pathways and How to Assess their Success<br/>
 Grasping the Idea of Transfer Learning<br/>
 Intro to Practice Datasets of Boxes and Circles<br/>
 ## Week of July 11
-Researching Potential Platforms to use for Transfer Research: Versions of YOLO <br/>
+Researching Potential Platforms to use for Transfer Learning: Versions of YOLO <br/>
 Uploading Data Sets to Personal Computer<br/>
 Decided that Version 4 would be Best Utilized <br/>
+Working on Preprocessing and How to Implement the YOLOv4 to Identify the "Just Boxes" Dataset <br/>
